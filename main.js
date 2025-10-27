@@ -12,14 +12,14 @@ const Json2iob = require('json2iob');
 const { CookieJar } = require('tough-cookie');
 const { HttpsCookieAgent } = require('http-cookie-agent/http');
 
-class Omada extends utils.Adapter {
+class OmadaV2 extends utils.Adapter {
   /**
    * @param {Partial<utils.AdapterOptions>} [options={}]
    */
   constructor(options) {
     super({
       ...options,
-      name: 'omada',
+      name: 'omadav2',
     });
     this.on('ready', this.onReady.bind(this));
     this.on('stateChange', this.onStateChange.bind(this));
@@ -61,7 +61,7 @@ class Omada extends utils.Adapter {
 
     this.subscribeStates('*');
 
-    this.log.info('Login to Omada ' + this.config.ip + ':' + this.config.port);
+    this.log.info('Login to OmadaV2 ' + this.config.ip + ':' + this.config.port);
     await this.login();
     if (this.session.token) {
       await this.getDeviceList();
@@ -490,8 +490,8 @@ if (require.main !== module) {
   /**
    * @param {Partial<utils.AdapterOptions>} [options={}]
    */
-  module.exports = (options) => new Omada(options);
+  module.exports = (options) => new OmadaV2(options);
 } else {
   // otherwise start the instance directly
-  new Omada();
+  new OmadaV2();
 }

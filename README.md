@@ -1,44 +1,93 @@
 ![Logo](admin/omada.png)
 
-# ioBroker.omada
+# ioBroker.omadav2
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.omada.svg)](https://www.npmjs.com/package/iobroker.omada)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.omada.svg)](https://www.npmjs.com/package/iobroker.omada)
-![Number of Installations](https://iobroker.live/badges/omada-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/omada-stable.svg)
+[![NPM version](https://img.shields.io/npm/v/iobroker.omadav2.svg)](https://www.npmjs.com/package/iobroker.omadav2)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.omadav2.svg)](https://www.npmjs.com/package/iobroker.omadav2)
+![Number of Installations](https://iobroker.live/badges/omadav2-installed.svg)
+![Current version in stable repository](https://iobroker.live/badges/omadav2-stable.svg)
 
-[![NPM](https://nodei.co/npm/iobroker.omada.png?downloads=true)](https://nodei.co/npm/iobroker.omada/)
+[![NPM](https://nodei.co/npm/iobroker.omadav2.png?downloads=true)](https://www.npmjs.com/package/iobroker.omadav2/)
 
-**Tests:** ![Test and Release](https://github.com/TA2k/ioBroker.omada/workflows/Test%20and%20Release/badge.svg)
+**Tests:** ![Test and Release](https://github.com/your-username/ioBroker.omadav2/workflows/Test%20and%20Release/badge.svg)
 
-## omada adapter for ioBroker
+## OmadaV2 Adapter für ioBroker
 
-Adapter for TP-Link Omada
+**Enhanced Adapter für TP-Link Omada Controller**
 
-# Loginablauf
+Dieser Adapter ist eine erweiterte Version des ursprünglichen Omada Adapters mit zusätzlichen Funktionen und Verbesserungen.
+
+## 🚀 Neue Features (geplant)
+
+- **Erweiterte Monitoring-Funktionen**
+- **Verbesserte SSID-Steuerung**
+- **VLAN-Management**
+- **QoS-Konfiguration**
+- **Erweiterte Client-Statistiken**
+- **Dashboard-Widgets**
+
+## 📋 Voraussetzungen
+
+- ioBroker Installation
+- TP-Link Omada Controller (Software oder Hardware)
+- Node.js >= 14
+
+## ⚙️ Installation
+
+1. Adapter über ioBroker Admin installieren
+2. Instanz erstellen und konfigurieren
+3. Omada Controller-Daten eingeben:
+   - **IP-Adresse** des Omada Controllers
+   - **Port** (Standard: 8043 für Software Controller, 443 für Hardware Controller)
+   - **Benutzername** und **Passwort**
+   - **Update-Intervall** (Standard: 30 Sekunden)
+
+## 🔧 Konfiguration
+
+### Loginablauf
 
 Die Omada IP, Login und Passwort eingeben.
 Default Port für Hardware Controller ist 443
 
-# Steuerung
+### Steuerung
 
-Ssids Einstellungen können via omada.0.id.ssids geändert werden
+SSID-Einstellungen können via `omadav2.0.id.ssids` geändert werden
 
-## Diskussion und Fragen
+## 📊 Unterstützte Daten
 
-<https://forum.iobroker.net/topic/62562/test-adapter-omada-tp-link>
+- **Clients** (verbundene Geräte)
+- **WLANs** (Wireless Networks)
+- **Devices** (Omada Hardware)
+- **Insights** (Client-Statistiken)
+- **Alerts** (Warnungen)
+- **Dashboard Overview** (Übersichtsdaten)
 
-## Changelog
+## 🔄 Unterschiede zum Original
+
+| Feature | Original | OmadaV2 |
+|---------|----------|---------|
+| Basis-Funktionalität | ✅ | ✅ |
+| Erweiterte Monitoring | ❌ | ✅ (geplant) |
+| VLAN-Management | ❌ | ✅ (geplant) |
+| QoS-Steuerung | ❌ | ✅ (geplant) |
+| Dashboard-Widgets | ❌ | ✅ (geplant) |
+
+## 🤝 Beitragen
+
+Beiträge sind willkommen! Bitte erstelle ein Issue oder einen Pull Request.
+
+## 📝 Changelog
 
 ### 0.0.1
+- (Your Name) Initial release of OmadaV2
+- Forked from original ioBroker.omada adapter
+- Enhanced structure and planning for additional features
 
-- (TA2k) initial release
-
-## License
+## 📄 Lizenz
 
 MIT License
 
-Copyright (c) 2023 TA2k <tombox2020@gmail.com>
+Copyright (c) 2024 Your Name <your.email@example.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

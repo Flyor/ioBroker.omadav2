@@ -5,17 +5,17 @@
     "ip": {
       "type": "text",
       "label": {
-        "en": "Omada IP",
-        "de": "Omada IP",
-        "ru": "Омада IP",
-        "pt": "Omada IP",
-        "nl": "Omada IP",
-        "fr": "Omada IP",
-        "it": "Omada IP",
-        "es": "Omada IP",
-        "pl": "Omada IP",
-        "uk": "Омада IP",
-        "zh-cn": "OmadaIP"
+        "en": "OmadaV2 IP",
+        "de": "OmadaV2 IP",
+        "ru": "ОмадаV2 IP",
+        "pt": "OmadaV2 IP",
+        "nl": "OmadaV2 IP",
+        "fr": "OmadaV2 IP",
+        "it": "OmadaV2 IP",
+        "es": "OmadaV2 IP",
+        "pl": "OmadaV2 IP",
+        "uk": "ОмадаV2 IP",
+        "zh-cn": "OmadaV2IP"
       },
       "newLine": true,
       "sm": 3
@@ -23,17 +23,17 @@
     "port": {
       "type": "text",
       "label": {
-        "en": "Omada Port (Hardware Controller default Port = 443)",
-        "de": "Omada Port (Hardware Controller default Port = 443)",
-        "ru": "Порт Омада (Hardware Controller default Port = 443)",
-        "pt": "Porta Omada (Porta padrão de Hardware Controller = 443)",
-        "nl": "Omada Port (Hardware Controller default Port = 443)",
-        "fr": "Port Omada (port par défaut du logiciel Port = 443)",
-        "it": "Porto di Omada (Porto predefinito di Hardware Controller = 443)",
-        "es": "Puerto de Omada (porto por defecto de Hardware Controller = 443)",
-        "pl": "Port Omada (ang.)",
-        "uk": "Omada Порт (Hardware Controller за замовчуванням Порт = 443)",
-        "zh-cn": "Omada Port(Hadware违约港口=443)"
+        "en": "OmadaV2 Port (Hardware Controller default Port = 443)",
+        "de": "OmadaV2 Port (Hardware Controller default Port = 443)",
+        "ru": "Порт ОмадаV2 (Hardware Controller default Port = 443)",
+        "pt": "Porta OmadaV2 (Porta padrão de Hardware Controller = 443)",
+        "nl": "OmadaV2 Port (Hardware Controller default Port = 443)",
+        "fr": "Port OmadaV2 (port par défaut du logiciel Port = 443)",
+        "it": "Porto di OmadaV2 (Porto predefinito di Hardware Controller = 443)",
+        "es": "Puerto de OmadaV2 (porto por defecto de Hardware Controller = 443)",
+        "pl": "Port OmadaV2 (ang.)",
+        "uk": "OmadaV2 Порт (Hardware Controller за замовчуванням Порт = 443)",
+        "zh-cn": "OmadaV2 Port(Hadware违约港口=443)"
       },
       "newLine": true,
       "sm": 3
