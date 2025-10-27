@@ -9,7 +9,7 @@
 
 [![NPM](https://nodei.co/npm/iobroker.omadav2.png?downloads=true)](https://www.npmjs.com/package/iobroker.omadav2/)
 
-**Tests:** ![Test and Release](https://github.com/your-username/ioBroker.omadav2/workflows/Test%20and%20Release/badge.svg)
+**Tests:** ![Test and Release](https://github.com/Flyor/ioBroker.omadav2/workflows/Test%20and%20Release/badge.svg)
 
 ## OmadaV2 Adapter für ioBroker
 
@@ -79,7 +79,7 @@ Beiträge sind willkommen! Bitte erstelle ein Issue oder einen Pull Request.
 ## 📝 Changelog
 
 ### 0.0.1
-- (Your Name) Initial release of OmadaV2
+- (Flyor) Initial release of OmadaV2
 - Forked from original ioBroker.omada adapter
 - Enhanced structure and planning for additional features
 
@@ -87,7 +87,7 @@ Beiträge sind willkommen! Bitte erstelle ein Issue oder einen Pull Request.
 
 MIT License
 
-Copyright (c) 2024 Your Name <your.email@example.com>
+Copyright (c) 2024 Flyor <flyor@example.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

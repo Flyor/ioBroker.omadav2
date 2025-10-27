@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Enhanced Adapter for TP-Link Omada V2",
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Flyor",
+    "email": "flyor@example.com"
   },
-  "homepage": "https://github.com/your-username/ioBroker.omadav2",
+  "homepage": "https://github.com/Flyor/ioBroker.omadav2",
   "license": "MIT",
   "keywords": [
     "omada",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/ioBroker.omadav2.git"
+    "url": "https://github.com/Flyor/ioBroker.omadav2.git"
   },
   "engines": {
     "node": ">= 14"
