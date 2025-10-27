@@ -1,6 +1,12 @@
 'use strict';
 
 /*
+ * OmadaV2 Adapter for ioBroker
+ * Fork of ioBroker.omada by TA2k (https://github.com/TA2k/ioBroker.omada)
+ * 
+ * Original Author: TA2k <tombox2020@gmail.com>
+ * Fork Author: Flyor
+ * 
  * Created with @iobroker/create-adapter v2.3.0
  */
 

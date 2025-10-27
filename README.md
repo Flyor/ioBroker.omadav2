@@ -15,7 +15,9 @@
 
 **Enhanced Adapter für TP-Link Omada Controller**
 
-Dieser Adapter ist eine erweiterte Version des ursprünglichen Omada Adapters mit zusätzlichen Funktionen und Verbesserungen.
+Dieser Adapter ist ein Fork des ursprünglichen [ioBroker.omada](https://github.com/TA2k/ioBroker.omada) Adapters von [TA2k](https://github.com/TA2k) mit zusätzlichen Funktionen und Verbesserungen.
+
+**Original-Autor:** [TA2k](https://github.com/TA2k) - Vielen Dank für die großartige Basis!
 
 ## 🚀 Neue Features (geplant)
 
@@ -78,10 +80,16 @@ Beiträge sind willkommen! Bitte erstelle ein Issue oder einen Pull Request.
 
 ## 📝 Changelog
 
-### 0.0.1
+### 0.0.1 (OmadaV2)
 - (Flyor) Initial release of OmadaV2
-- Forked from original ioBroker.omada adapter
+- Forked from original ioBroker.omada adapter by TA2k
 - Enhanced structure and planning for additional features
+
+### Original Changelog (ioBroker.omada by TA2k)
+- 0.0.7: Fix for omadaId
+- 0.0.6: Fix relogin after 24h  
+- 0.0.3: Fix client fetching
+- 0.0.1: Initial release by TA2k
 
 ## 📄 Lizenz
 

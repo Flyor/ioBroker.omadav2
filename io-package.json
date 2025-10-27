@@ -4,16 +4,16 @@
     "version": "0.0.1",
     "news": {
       "0.0.1": {
-        "en": "Initial release of OmadaV2 - Enhanced TP-Link Omada Adapter",
-        "de": "Erstveröffentlichung von OmadaV2 - Erweiterter TP-Link Omada Adapter",
-        "ru": "Начальная версия OmadaV2 - Улучшенный адаптер TP-Link Omada",
-        "pt": "Lançamento inicial do OmadaV2 - Adaptador TP-Link Omada aprimorado",
-        "nl": "Eerste uitgave van OmadaV2 - Verbeterde TP-Link Omada adapter",
-        "fr": "Première version d'OmadaV2 - Adaptateur TP-Link Omada amélioré",
-        "it": "Versione iniziale di OmadaV2 - Adattatore TP-Link Omada migliorato",
-        "es": "Versión inicial de OmadaV2 - Adaptador TP-Link Omada mejorado",
-        "pl": "Pierwsze wydanie OmadaV2 - Ulepszony adapter TP-Link Omada",
-        "zh-cn": "OmadaV2 首次发布 - 增强的 TP-Link Omada 适配器"
+        "en": "Initial release of OmadaV2 - Fork of ioBroker.omada by TA2k",
+        "de": "Erstveröffentlichung von OmadaV2 - Fork von ioBroker.omada von TA2k",
+        "ru": "Начальная версия OmadaV2 - Форк ioBroker.omada от TA2k",
+        "pt": "Lançamento inicial do OmadaV2 - Fork do ioBroker.omada por TA2k",
+        "nl": "Eerste uitgave van OmadaV2 - Fork van ioBroker.omada door TA2k",
+        "fr": "Première version d'OmadaV2 - Fork d'ioBroker.omada par TA2k",
+        "it": "Versione iniziale di OmadaV2 - Fork di ioBroker.omada di TA2k",
+        "es": "Versión inicial de OmadaV2 - Fork de ioBroker.omada por TA2k",
+        "pl": "Pierwsze wydanie OmadaV2 - Fork ioBroker.omada przez TA2k",
+        "zh-cn": "OmadaV2 首次发布 - TA2k 的 ioBroker.omada 分叉"
       }
     },
     "title": "TP-Link Omada V2",
@@ -30,16 +30,16 @@
       "zh-cn": "TP-Link 奥马达 V2"
     },
     "desc": {
-      "en": "Enhanced Adapter for TP-Link Omada with additional features",
-      "de": "Erweiterter Adapter für TP-Link Omada mit zusätzlichen Funktionen",
-      "ru": "Улучшенный адаптер для TP-Link Omada с дополнительными функциями",
-      "pt": "Adaptador aprimorado para TP-Link Omada com recursos adicionais",
-      "nl": "Verbeterde adapter voor TP-Link Omada met extra functies",
-      "fr": "Adaptateur amélioré pour TP-Link Omada avec des fonctionnalités supplémentaires",
-      "it": "Adattatore migliorato per TP-Link Omada con funzionalità aggiuntive",
-      "es": "Adaptador mejorado para TP-Link Omada con características adicionales",
-      "pl": "Ulepszony adapter do TP-Link Omada z dodatkowymi funkcjami",
-      "zh-cn": "增强的 TP-Link Omada 适配器，具有附加功能"
+      "en": "Fork of ioBroker.omada by TA2k - Enhanced TP-Link Omada Adapter",
+      "de": "Fork von ioBroker.omada von TA2k - Erweiterter TP-Link Omada Adapter",
+      "ru": "Форк ioBroker.omada от TA2k - Улучшенный адаптер TP-Link Omada",
+      "pt": "Fork do ioBroker.omada por TA2k - Adaptador TP-Link Omada aprimorado",
+      "nl": "Fork van ioBroker.omada door TA2k - Verbeterde TP-Link Omada adapter",
+      "fr": "Fork d'ioBroker.omada par TA2k - Adaptateur TP-Link Omada amélioré",
+      "it": "Fork di ioBroker.omada di TA2k - Adattatore TP-Link Omada migliorato",
+      "es": "Fork de ioBroker.omada por TA2k - Adaptador TP-Link Omada mejorado",
+      "pl": "Fork ioBroker.omada przez TA2k - Ulepszony adapter TP-Link Omada",
+      "zh-cn": "TA2k 的 ioBroker.omada 分叉 - 增强的 TP-Link Omada 适配器"
     },
     "authors": ["Flyor <flyor@example.com>"],
     "keywords": ["omada", "tp-link", "omadav2", "enhanced"],
